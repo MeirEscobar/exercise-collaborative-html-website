@@ -1,4 +1,6 @@
 <!-- your html code here -->
+
+
 <!-- *Creamo <nav> para iniciar la seccion de navegacion
      *CLASES:
         - navbar: clase base para crear un navbar en boostrap
@@ -7,6 +9,8 @@
         - bg-dark: fondo socuro-->
 <nav class="navbar navbar-expand-md navbar-dark bg-dark">
     <div class="container">
+
+
         <!-- Creamos <a> ya que es un hipervinculo a la pagina principal
             CLASES:
                 - navbar-brand: estiliza el enlace--> 
@@ -15,7 +19,12 @@
                 <span class="navbar-toggler-icon"></span> 
             </button>
         <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ms-auto">
+
+
+            <!-- *ms-auto: movia todo hacia la derecha
+                 *mb-2: le da un margin bottom a las opciones
+                 *mb-lg-0: reescribe margin bottom en pantallas grandes (recomendado para espacios mas responsivos)-->
+            <ul class="navbar-nav mb-2 mb-lg-0">
                 <li class="nav-item"> <a class="nav-link" href="#about">About</a> </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#services">Services</a>
