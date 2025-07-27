@@ -1,3 +1,24 @@
 body{
     background: #BDBDBD;
 }
+
+/* Estilos para la sección de tagline con imagen de fondo */
+.hero-tagline {
+    background-image: url("css/style.css"); /* Ajusta la ruta a tu imagen */
+    background-size: cover; /* Asegura que la imagen cubra todo el div */
+    background-position: center; /* Centra la imagen */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    color: white; /* Cambia el color del texto a blanco si la imagen es oscura */
+    /* Puedes añadir una altura mínima si el contenido es corto, para que la imagen se vea bien */
+    min-height: 400px; /* Ejemplo de altura mínima */
+    display: flex; /* Ayuda a centrar el contenido verticalmente */
+    align-items: center; /* Centra verticalmente el contenido flex */
+    justify-content: center; /* Centra horizontalmente el contenido flex */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Sombra para el texto para mejor legibilidad sobre la imagen */
+}
+
+/* Opcional: Si los títulos y párrafos no son blancos por defecto, puedes forzarlos */
+.hero-tagline h1,
+.hero-tagline p {
+    color: white; /* Asegura que el texto sea blanco */
+}
